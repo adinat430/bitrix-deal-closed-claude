@@ -1,0 +1,11 @@
+name = "bitrix-deal-closed"
+main = "src/index.js"
+compatibility_date = "2025-11-01"
+
+[observability]
+enabled = true
+
+[[d1_databases]]
+binding = "DB"
+database_name = "bitrix-deals"
+database_id = "ccc2b080-9112-4da1-be19-8d607936b8a0"
